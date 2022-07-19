@@ -12,7 +12,7 @@ function get_basket_json(position) {
             item ["id"] = $('#id',this).val();
             item ["category"] = $('#category',this).val();
             item ["quantity"] = $('#quantity',this).val();
-            item ["brand"] = 'Emaar Aquarium';
+            item ["brand"] = 'Emaar SkyView';
             if(position==true){ item ["position"] = foo; }
             jsonObj.push(item);
             foo++;
@@ -128,7 +128,7 @@ function get_basket_json(position) {
 				'purchase': {
 					'actionField': {	
 						'id': data.id, 
-	                  	'affiliation': 'Emaar Aquarium Website',
+	                  	'affiliation': 'Emaar SkyView Website',
 	                  	'revenue': data.revenue, 
 	                  	'tax': data.tax,
 	                  	'coupon': data.coupon // This variabe is not defined yet
